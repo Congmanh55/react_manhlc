@@ -1,0 +1,117 @@
+.content-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-email {
+    background-color: #FEFEFE;
+    box-shadow: 5px 5px 10px #888888;
+    border-radius: 15px;
+    width: 40%;
+    height: 85vh;
+    padding: 0px 80px;
+    margin-top: 50px;
+}
+.content-p {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    flex-direction: row;
+    align-items: center;
+    
+}
+            
+label {
+    display: block;
+    font-weight: bold;
+    /* width: 100px; Đặt chiều rộng của label */
+    text-align: left; /* Để text trong label căn phải */
+}
+    
+.key {
+    color: red;
+    margin: 0;
+}
+.input-email {/* Chia tỷ lệ 1:1 cho input để chúng nằm cùng một dòng */
+    padding: 10px;
+    border: 1px solid #c4c4c4;
+    border-radius: 7px;
+    width: 100%;             
+}
+.input-email:hover {
+    border: 1px solid #F97525;
+}
+.input-email:focus {
+    outline: 2px solid #F97525;
+}
+
+.input-password {
+    width: 100%; /* Chia tỷ lệ 1:1 cho input để chúng nằm cùng một dòng */
+    padding: 10px;
+    border: 1px solid #c4c4c4;
+    border-radius: 7px;
+    
+}
+.input-password:hover {
+    border: 1px solid #F97525;
+}
+.input-password:focus {
+    outline: 2px solid #F97525;
+}
+
+.submit {
+    text-align: center;
+}
+button {
+    background-color: white;
+    /* border: 2px solid orange; */
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 50vh;
+    height: 7vh;
+    margin-bottom: 25px;
+}
+button:hover{
+    background-color: #F79525;
+    color: #FEFEFE;
+}
+a{
+    text-decoration: none;
+    color: orange;
+}
+.or-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 150px ;
+}
+.line{
+    border-bottom: 1px solid black ;
+    width: 25%;
+}
+.text {
+    padding: 0 10px;
+}
+    
+.logo {
+    padding: 10px;
+    text-align: center;
+}
+.network {
+    width: 30px;
+    padding: 0 10px;
+}
+
+.button-register {
+    border: 2px solid #f69d35;
+    box-shadow: 0 0 3px #ff9233 ;
+}
+.button-register:hover {
+    box-shadow: none;
+}

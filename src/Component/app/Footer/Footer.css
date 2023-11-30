@@ -1,0 +1,80 @@
+/* Trong file CSS hoặc module CSS */
+footer {
+    /* position: fixed;  */
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.footer-top {
+    background-color: #975602;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 38px;
+}
+  
+.footer-bottom {
+    background-color: #FCD8AF;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 38px;
+    color: black;
+}
+
+.item {
+    width: 300px;
+}
+
+.item-1 {
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+.item-2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    padding-top: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.clock {
+    display: flex;
+}
+
+.time {
+    text-align: left;
+}
+.time-1 {
+    display: flex;
+    margin-bottom: 16px;
+}
+.time-2 {
+    width: 150px;
+}
+.time-3 {
+    width: 150px;
+    text-align: center;
+    border-left: 2px solid #333;
+}
+
+.suport {
+    text-align: left;
+}
+.icon {
+    padding-right: 10px;
+    color: #666666;
+}
+

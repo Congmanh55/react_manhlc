@@ -1,0 +1,218 @@
+.backg {
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.comp {
+    width: 60%;
+    height: 60%;
+    
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.infor-1 {
+    text-align: center;
+    background-color: #FEFEFE;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.details-1 {
+    text-align: left;
+    padding: 20px;
+}
+.div-1 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div-2 {
+    display: flex;
+    align-items: center;
+}
+.div-21 {
+    width: 65%;
+}
+.div-22 {
+    width: 20%;
+}
+.div-221 {
+    color: #F9B76B;
+    font-weight: bold;
+}
+.div-23 {
+    width: 15%;
+}
+
+
+.infor {
+    text-align: center;
+    background-color: #FEFEFE;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #c4c4c4;
+}
+
+.details {
+    padding: 30px;
+}
+
+table, td, th {  
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td {
+    padding: 15px;
+    
+}
+
+
+.row {
+    height: 100px;
+}
+.row-1 {
+    display: flex;
+    align-items: center;
+
+}
+.row-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border: 1px solid black;
+    width: 80%;
+    height: 32px;
+    border-radius: 10px;
+}
+.row-icon1, .row-icon2 {
+    padding: 0 15px;
+    cursor: pointer;
+}
+.row-icon1 {
+    color: #F9B76B;
+}
+.row-icon2 {
+    color: red;
+}
+
+.header {
+    background-color: #FCD8AF;
+}
+
+.payment {
+    display: flex;
+}
+.payment-left {
+    width: 50%;
+    text-align: left;
+}
+.input-pay {
+    color: #F9B76B;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+.input-pay:hover {
+    cursor: pointer;
+}
+
+
+.vietcom-1 {
+    margin: 0 25px;
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    border-radius: 10px;
+    width: 300px;
+}
+.vietcom-1:hover {
+    border:2px solid #F9B76B;
+    color: #F9B76B;
+    cursor: pointer;
+}
+.vc-img {
+    padding: 5px;
+    width: 30px;
+}
+
+.payment-right {
+    display: flex;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 7px;
+}
+.right-1 {
+    width: 200px;
+}
+.pay-div {
+    margin-bottom: 5px;
+}
+.pay-div-1 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.note {
+    text-align: left;
+}
+.note-input {
+    width: 99%;
+    height: 100px;
+}
+
+.pay-cart {
+    text-align: right;
+    padding: 20px 0;
+}
+.pay-button {
+    width: 100px;
+    border-radius: 10px;
+    height: 40px;
+}
+.button {
+    padding-top: 30px;
+}
+.button-1 {
+    width: 100px;
+    height: 40px; ;
+    margin-right: 30px;
+    color: black;
+    background-color: white;
+    border: 2px solid #f69d35;
+    box-shadow: 0 0 3px #ff9233 ;
+}
+.button-1:hover {
+    box-shadow: none;
+
+}
+.button-2 {
+    width: 100px;
+    height: 40px;
+    margin-left: 30px;
+    color: white;
+    border: 2px solid #f69d35;
+    box-shadow: 0 0 3px #ff9233 ;
+    background-color: #f69d35;
+}
+.button-2:hover {
+    background-color: #f69d35;
+}

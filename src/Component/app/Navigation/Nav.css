@@ -1,0 +1,115 @@
+.container {
+    /* position: fixed; */
+}
+.nav {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px #c4c4c4;
+    
+}
+
+.leftSection {
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-left: 20px;
+}
+.logo-master {
+    padding: 0;
+    width: 35px;
+}
+.link {
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+.link-1 {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #F97525;
+}
+.link:hover {
+    cursor: pointer;
+    color: #F79525;
+}
+
+.rightSection {
+    display: flex;
+    align-items: center;
+    float: right;
+    padding-right: 20px;
+}
+
+.search-bar {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    border-radius: 18px;
+    border: 2px solid black;
+    width: 250px;
+    align-items: center;
+    margin-right: 50px;
+    overflow: hidden;
+}
+.search-bar:hover{
+    border: 1px solid #F97525;
+}
+  
+.search-icon {
+    margin-right: 5px;
+    cursor: pointer;
+    color: rgb(84, 86, 89);
+}
+.search-icon-1{
+    margin-right: 5px;
+    cursor: pointer;
+    color: #F97525
+}
+  
+.search-input {
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    flex: 1; /*Chia tỷ lệ 1:1 cho input để chúng nằm cùng một dòng */
+    padding: 6px;
+}
+
+.icon {
+    padding: 0 10px;
+}
+.search-icon:hover{
+    color: #F79525;
+}
+.login{
+    color: black;
+}
+.login-1{
+    color: #F97525;
+}
+.login:hover {
+    cursor: pointer;
+    color: #F79525;
+}
+
+.cart-number {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    position: relative;
+    top: -15px;
+    left: -10px;
+    font-size: 10px;
+}
+
+.logo-master {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}

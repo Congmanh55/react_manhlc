@@ -1,0 +1,17 @@
+.update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8F8;
+}
+
+.bt-update {
+    width: 600px;
+    height: 200px;
+    margin: 100px 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c4c4c4;
+    border-radius: 10px;
+}

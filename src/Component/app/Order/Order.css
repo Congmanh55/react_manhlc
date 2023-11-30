@@ -1,0 +1,110 @@
+.backg {
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.comp {
+    width: 60%;
+    height: 60%;
+    
+}
+
+.title {
+    padding-top: 80px;
+}
+
+.infor {
+    text-align: center;
+    background-color: #FEFEFE;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #c4c4c4;
+}
+
+.details {
+    padding: 30px;
+}
+
+table, td, th {  
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td {
+    padding: 15px;
+    
+}
+
+
+.row {
+    height: 100px;
+}
+.row-1 {
+    display: flex;
+    align-items: center;
+
+}
+.row-button-order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border: none;
+    width: 80%;
+    height: 32px;
+    border-radius: 10px;
+}
+.row-icon1, .row-icon2 {
+    padding: 0 15px;
+    cursor: pointer;
+}
+.row-icon1 {
+    color: #F9B76B;
+}
+.row-icon2 {
+    color: red;
+}
+
+.header {
+    background-color: #FCD8AF;
+}
+
+.note {
+}
+.note-input-111 {
+    border-radius: 5px;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    color: #c4c4c4;
+    border: 1px solid #c4c4c4;
+}
+.note-input-111:hover{
+    border-color: #F97525;
+}
+.note-input-111:focus {
+    outline: 2px solid #F97525;
+}
+.pay-cart {
+    text-align: right;
+    padding: 20px 0;
+}
+.pay-button {
+    width: 100px;
+    border-radius: 10px;
+    height: 40px;
+    border: 2px solid #f69d35;
+    box-shadow: 0 0 3px #ff9233 ;
+}

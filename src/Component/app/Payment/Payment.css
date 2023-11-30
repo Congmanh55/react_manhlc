@@ -1,0 +1,90 @@
+.backgr {
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.contai {
+    width: 90%;
+    height: 90%;
+    
+}
+
+.hienthi {
+    margin: 100px 0 50px 0;
+    text-align: center;
+    background-color: #FEFEFE;
+}
+
+img {
+    padding-top: 30px;
+    width: 30%;
+}
+
+.content {
+    margin: 30px auto;
+}
+
+.infomation {
+    width: 50%;
+    padding: 0 25%;
+    text-align: left;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;/* hoặc giá trị phù hợp với yêu cầu của bạn */
+    margin: 0 auto; /* Để căn giữa trang nếu chiều rộng không đủ */
+}
+
+.detail-left {
+    text-align: left;
+}
+.detail-right {
+    text-align: right;
+}
+
+.linee {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.button11 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.button-11 {
+    background-color: #f69d35;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin: 0 50px;
+}
+.button-11:hover {
+    background-color: #f69d35;
+}
+.button-21 {
+    width: 170px;
+    height: 40px;
+    margin: 0 50px;
+    border: 2px solid #f69d35;
+    box-shadow: 0 0 3px #ff9233 ;
+    color: black;
+}
+.button-21:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+

@@ -1,0 +1,33 @@
+.body-cartEmpty {
+    background-color: #f8f8f8;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartEmpty {
+    width: 100%;
+
+    
+}
+.cartEmpty-body {
+    padding: 80px 30px 30px 30px;
+    text-align: center;
+    background-color: white;
+}
+
+.pay {
+    padding-top: 20px;
+}
+.pay-btt {
+    width: 150px;
+    height: 45px;
+    color: white;
+    background-color: #f69d35;
+    border: none;
+}
+.pay-btt:hover {
+    background-color: #f69d35;
+    cursor: pointer;
+}

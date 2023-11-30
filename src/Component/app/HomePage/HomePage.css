@@ -1,0 +1,251 @@
+.body-product {
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+}
+.body-content {
+    margin: 50px 30px 100px 30px ;
+}
+
+.contents {
+    background-color: #F8F8F8;
+}
+.list-product {
+    background-color: #FFECDB;
+}
+.list-product-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 50px;
+}
+
+.img-velvet, .img-btm, .img-bkho {
+    width: 33%;
+}
+.img-velvet:hover, .img-btm:hover, .img-bkho:hover {
+    color: #f69d35;
+}
+
+.img-velvet:hover {
+    transform: scale(1.5);
+}
+.img-btm:hover {
+    transform: scale(1.5);
+}
+.img-bkho:hover {
+    transform: scale(1.5);
+}
+
+.velvet4 {
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.velvet4:hover {
+    border: 1px solid #f69d35;
+}
+
+.btm {
+    padding: 0;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.btm:hover {
+    border: 1px solid #f69d35;
+}
+.bkho {
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.bkho:hover {
+    border: 1px solid #f69d35;
+}
+
+.introduce{
+    display: flex;
+}
+.img-introduce {
+    padding: 0;
+    width: 70%;
+}
+.content-product {
+    background-color: #F69D35;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.news {
+    background-color: #FFECDB ;
+    display: flex;
+}
+.news-1, .news-2 {
+    width: 50%;
+    /* display: flex; */
+    /* height: 200px; */
+
+}
+.bt-news {
+    border: 2px solid #f69d35;
+    box-shadow: 0 0 3px #ff9233 ;
+}
+.bt-news:hover {
+    box-shadow: none;
+}
+
+.hai0_10 {
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.evaluate {
+    background-color: #FFECDB;
+    height: 300px;
+    /* max-width: 1350px; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow: auto;
+    white-space: nowrap; /* Ngăn ngừa xuống dòng */
+}
+.list-evaluate {
+    list-style: none; /* Loại bỏ các dấu hiệu chấm đầu dòng của danh sách UL */
+    padding: 0; /* Loại bỏ padding mặc định của danh sách UL */
+    margin: 0; /* Loại bỏ margin mặc định của danh sách UL */
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.left-icon {
+    background-color: #613814;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nho-hon {
+    text-align: left;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+.right-icon {
+    background-color: #613814;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.lon-hon {
+    text-align: right;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+  
+.list-1 {
+    display: inline-block; /* Hiển thị các phần tử li theo chiều ngang */
+    margin: 0 30px; /* Để lại một khoảng trắng giữa các phần tử li */
+    width: 550px;
+    border-radius: 10px;
+    background-color: #F8F8F8;
+}
+
+.img-avt {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.gach {
+    margin: 10px 0px;
+    border-bottom: 2px solid black ;
+}
+
+.contact {
+    display: flex;
+
+}
+.contact-1 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background-image: url('../../Image/contact.png');
+    margin-right: 20px;
+}
+.img-map {
+    width: 800px;
+    height: 400px;
+}
+
+.send {
+    width: 100%;
+    height: 600px;
+    background-image: url('../../Image/mess.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form-send {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 50%;
+
+}
+.form-content {
+    padding: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+.form-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.form-2 {
+    padding-bottom: 20px;
+}
+.form-inp {
+    border: 1px solid #C4C4C4; 
+    width: 80%;
+}
+.form-inp:hover {
+    border-color: #f69d35;
+}
+.form-inp:focus {
+    outline: 2px solid #f69d35;
+}
+.form-input {
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #C4C4C4;
+
+}
+.form-input:hover {
+    border-color: #f69d35;
+}
+.form-input:focus {
+    outline: 2px solid #f69d35;
+}
+
+.gui{
+    border: 2px solid #f69d35;
+    box-shadow: 0 0 3px #ff9233 ;
+}
+.gui:hover{
+    box-shadow: none;
+    background-color: #f69d35;
+}
